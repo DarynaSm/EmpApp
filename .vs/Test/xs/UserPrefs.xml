@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{D5EE3BFB-022D-4AA5-8DD4-84878A999111}|Default">
+  <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test/Migrations/20220726111948_changed_age-.cs">
+    <Files>
+      <File FileName="Test/Models/ApplicationUser.cs" Line="12" Column="2" />
+      <File FileName="Test/Views/LoginaAndRegister/Login.cshtml" Line="17" Column="44" />
+      <File FileName="Test/Migrations/20220726111948_changed_age-.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Test" expanded="True">
+            <Node name="Test" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="20220726111948_changed_age-.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="LoginaAndRegister" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
