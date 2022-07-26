@@ -1,12 +1,14 @@
 ﻿<Properties StartupConfiguration="{D5EE3BFB-022D-4AA5-8DD4-84878A999111}|Default">
   <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test/Models/RegisterViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test/Views/Account/Register.cshtml">
     <Files>
       <File FileName="Test/Models/ApplicationUser.cs" Line="12" Column="2" />
       <File FileName="Test/Views/Shared/_LoginPartial.cshtml" Line="20" Column="88" />
       <File FileName="Test/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
       <File FileName="Test/Program.cs" Line="16" Column="1" />
       <File FileName="Test/Models/RegisterViewModel.cs" Line="33" Column="1" />
+      <File FileName="Test/Controllers/AccountController.cs" Line="14" Column="40" />
+      <File FileName="Test/Views/Account/Register.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,12 +20,11 @@
               </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="RegisterViewModel.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Account" expanded="True">
+                  <Node name="Register.cshtml" selected="True" />
+                </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="lib" expanded="True">
