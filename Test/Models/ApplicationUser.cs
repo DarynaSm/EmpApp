@@ -5,8 +5,8 @@ namespace Test.Models
 {
     public class ApplicationUser:IdentityUser
     {
-        public string city { get; set; }
-        public int age { get; set; }
+        public string City { get; set; }
+        public int Age { get; set; }
         public Resume Resume { get; set; }
     }
 }
