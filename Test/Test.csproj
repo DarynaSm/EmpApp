@@ -8,6 +8,8 @@
   <ItemGroup>
     <None Remove="Views\LoginaAndRegister\" />
     <None Remove="Views\Account\" />
+    <None Remove="Services\" />
+    <None Remove="Data\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.22" />
@@ -20,5 +22,7 @@
   <ItemGroup>
     <Folder Include="Views\LoginaAndRegister\" />
     <Folder Include="Views\Account\" />
+    <Folder Include="Services\" />
+    <Folder Include="Data\" />
   </ItemGroup>
 </Project>

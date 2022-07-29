@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Test.Models;
+using Test.Services;
 
 namespace Test
 {
@@ -33,6 +34,9 @@ namespace Test
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true) //Identityuser -> ApplicationUser
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddTransient<AccountService>();
+            services.AddTransient<ViewModelService>();
+            services.AddTransient<DbService>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

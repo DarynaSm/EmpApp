@@ -1,0 +1,19 @@
+﻿@model Test.Models.ApplicationUserViewModel
+
+@{ ViewData["Title"] = "Account"; }
+
+<h1 class="main-text" style="color:black">@Model.UserName</h1>
+
+<div>
+    <h4>@Model.PhoneNumber</h4>
+    <h4>City: @Model.City</h4>
+    <h4>Age: @Model.Age</h4>
+</div>
+
+<section>
+
+    @if (Model.Resumes != null)
+    {
+        
+    }
+

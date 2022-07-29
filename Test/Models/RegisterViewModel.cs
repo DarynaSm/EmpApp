@@ -21,15 +21,13 @@ namespace Test.Models
         [Required]
         public string Name { get; set; }
 
-        [Required]
-        public string Surname { get; set; }
 
         [Required]
         [DataType(DataType.PhoneNumber)]
         public string PhoneNumber { get; set; }
 
         public string City { get; set; }
-        public string Age { get; set; }
+        public int Age { get; set; }
 
 
         public RegisterViewModel()

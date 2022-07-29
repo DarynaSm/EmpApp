@@ -1,42 +1,39 @@
 ﻿<Properties StartupConfiguration="{D5EE3BFB-022D-4AA5-8DD4-84878A999111}|Default">
   <MonoDevelop.Ide.ItemProperties.Test PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test/Views/Account/Register.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test/Program.cs">
     <Files>
-      <File FileName="Test/Models/ApplicationUser.cs" Line="12" Column="2" />
-      <File FileName="Test/Views/Shared/_LoginPartial.cshtml" Line="20" Column="88" />
-      <File FileName="Test/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="Test/Program.cs" Line="16" Column="1" />
-      <File FileName="Test/Models/RegisterViewModel.cs" Line="33" Column="1" />
-      <File FileName="Test/Controllers/AccountController.cs" Line="14" Column="40" />
+      <File FileName="Test/Startup.cs" Line="38" Column="44" />
+      <File FileName="Test/Controllers/AccountController.cs" Line="39" Column="57" />
+      <File FileName="Test/Services/AccountService.cs" Line="26" Column="24" />
+      <File FileName="Test/Views/Account/Account.cshtml" Line="17" Column="9" />
+      <File FileName="Test/Models/ApplicationUserViewModel.cs" Line="13" Column="25" />
+      <File FileName="Test/Services/ViewModelService.cs" Line="23" Column="34" />
+      <File FileName="Test/Services/DbService.cs" Line="21" Column="10" />
+      <File FileName="Test/Models/ApplicationUser.cs" Line="11" Column="19" />
       <File FileName="Test/Views/Account/Register.cshtml" Line="1" Column="1" />
+      <File FileName="Test/Program.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Test" expanded="True">
             <Node name="Test" expanded="True">
-              <Node name="Areas" expanded="True">
-                <Node name="Identity" expanded="True" />
-              </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Account" expanded="True">
-                  <Node name="Register.cshtml" selected="True" />
-                </Node>
+                <Node name="Account" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="lib" expanded="True">
                   <Node name="bootstrap" expanded="True">
-                    <Node name="dist" expanded="True">
-                      <Node name="js" expanded="True">
-                        <Node name="bootstrap.js" expanded="True" />
-                      </Node>
-                    </Node>
+                    <Node name="dist" expanded="True" />
                   </Node>
                 </Node>
               </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -46,7 +43,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/daryna/Desktop/EmpApp/Test/Views/Account/Account.cshtml" relfile="Test/Views/Account/Account.cshtml" line="16" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
